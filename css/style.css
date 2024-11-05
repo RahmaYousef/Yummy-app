@@ -1,0 +1,59 @@
+body{
+    background-color: #0D0D0D;
+    color: white;
+    overflow: hidden;
+}
+.logo{
+    width: 50px;
+}
+.side-nav{
+    z-index: 99;
+}
+.nav-tab{
+    background-color: #0D0D0D;
+
+}
+.nav-header i{
+    color: black;
+    
+}
+i,li{
+    cursor: pointer;
+}
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    top: 100%;
+    transition: 0.5s;
+    padding: 10px;
+}
+.meal:hover .meal-layer{
+top: 0;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.loadingScreen{
+    position: fixed;
+    inset: 0;
+    background-color: #0D0D0D;
+z-index: 999;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.innerLoadingScreen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+
+}
+.sear{
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
